@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E040147DE1D91488B95743 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70F09F6417010A711788A12B /* SplashViewController.xib */; };
+		09499DBBA580E79F891829C3 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3025B33EA58D28A8A95D41C4 /* SplashInteractor.swift */; };
+		0BE2236A018AB7E58F7FF1FF /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30269C246DDD100C743EE56A /* LoginRouter.swift */; };
+		0C0F55EEF0ED80BB6543F2A6 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B9AA9532813A216C2330E0 /* LoginInteractor.swift */; };
+		1F3AC49B716AB53F3F0146BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1C059B296137D1C4A4637 /* HomeViewController.swift */; };
+		26EF424E76B534F96969323F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEE337D8FC0118BC028CAEF /* LoginViewController.swift */; };
+		2E53B1E43F570E52364ADE0C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7DA999734B9415E4DE997 /* SplashViewController.swift */; };
+		351F2BD36B707D91980DFF4F /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D3913D1B6DFCD3BEA622E2 /* PreviewViewController.swift */; };
+		4011B3181EF943F6CA2A3215 /* PreviewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BD26FCBF48386F95746EE /* PreviewInteractor.swift */; };
+		40A7181B156421F19F144108 /* PreviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17FB50D675B119A423B02A /* PreviewPresenter.swift */; };
+		441AEB8D9584D512CF36B0B9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C80E27A60BA06534FCE337 /* LoginViewController.xib */; };
+		5C65E7AAD21962DBE8EEB3B1 /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82607F525E8CAFF4750DEE7 /* PreviewViewController.xib */; };
+		76771C9455204BAA6EE4001A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506581874EA54B67C16353F2 /* HomeRouter.swift */; };
+		81890EF62482B3428BE5586F /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC82B656F9AB8894744CBE8C /* SplashPresenter.swift */; };
+		8A7D69B698DB586365D1712A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96872C62BADE0D3E5BCC6059 /* HomePresenter.swift */; };
+		9377CFA639510EA5AE759DD0 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490F61EB160870C56C6B0A6 /* SplashRouter.swift */; };
+		9A1DE3C741684EABFE657903 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC743F8C64DC119C8325A5 /* HomeBuilder.swift */; };
+		9E31FF3330B2E15C28C9D1E3 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36468FCA660395187336AC52 /* LoginPresenter.swift */; };
+		B65498763E235F55498277B1 /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4F9E2A63F2E9F8085AADC /* LoginBuilder.swift */; };
+		B6DA807D43AF0C5B8FFE3F75 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DDA569A9377C4C12F3DC769 /* HomeViewController.xib */; };
+		C73BBA2472C3706F8698A792 /* PreviewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669DE5967798B095C7E6F46 /* PreviewRouter.swift */; };
+		CC6CCAA933DE91B69939EF9C /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C3F73B2550829A63DF6CE6 /* HomeInteractor.swift */; };
+		EBAE94C9261DB7BB00412A71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE94C8261DB7BB00412A71 /* AppDelegate.swift */; };
+		EBAE94CB261DB7BB00412A71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE94CA261DB7BB00412A71 /* SceneDelegate.swift */; };
+		EBAE94D0261DB7BB00412A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAE94CE261DB7BB00412A71 /* Main.storyboard */; };
+		EBAE94D2261DB7BF00412A71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAE94D1261DB7BF00412A71 /* Assets.xcassets */; };
+		EBAE94D5261DB7BF00412A71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAE94D3261DB7BF00412A71 /* LaunchScreen.storyboard */; };
+		EBAE94DE261DB7E700412A71 /* ApplicationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE94DD261DB7E700412A71 /* ApplicationContext.swift */; };
+		EBAE94ED261DBC1600412A71 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE94EB261DBC1600412A71 /* HomeTableViewCell.swift */; };
+		EBAE94EE261DBC1600412A71 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBAE94EC261DBC1600412A71 /* HomeTableViewCell.xib */; };
+		EBAE94F2261DC18300412A71 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE94F1261DC18300412A71 /* DataService.swift */; };
+		EBAE94F6261DC21700412A71 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE94F5261DC21700412A71 /* Fruit.swift */; };
+		EBAE94FA261DC2BF00412A71 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE94F9261DC2BF00412A71 /* String+Extensions.swift */; };
+		EE5349C9FAC1F3A14910673E /* SplashBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2746A11457D7C1F5B7BE011 /* SplashBuilder.swift */; };
+		F8FD6566E2820BC9CD6F16A4 /* Pods_VIPER_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918B71D7A0E4DF6CC5F11EA7 /* Pods_VIPER_Demo.framework */; };
+		F95E9106D93080C7EE5A72FD /* PreviewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DA808B8D21844C577389AA /* PreviewBuilder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2490F61EB160870C56C6B0A6 /* SplashRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		2E0431B4BF942B25A4059ABD /* Pods-VIPER-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER-Demo.release.xcconfig"; path = "Target Support Files/Pods-VIPER-Demo/Pods-VIPER-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		3025B33EA58D28A8A95D41C4 /* SplashInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		30269C246DDD100C743EE56A /* LoginRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		36468FCA660395187336AC52 /* LoginPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		47DA808B8D21844C577389AA /* PreviewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewBuilder.swift; sourceTree = "<group>"; };
+		506581874EA54B67C16353F2 /* HomeRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		50C80E27A60BA06534FCE337 /* LoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		51C3F73B2550829A63DF6CE6 /* HomeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		63B7DA999734B9415E4DE997 /* SplashViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		66B2011D5BE7A09E1A9EA6D4 /* Pods-VIPER-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER-Demo.debug.xcconfig"; path = "Target Support Files/Pods-VIPER-Demo/Pods-VIPER-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		70F09F6417010A711788A12B /* SplashViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		71B9AA9532813A216C2330E0 /* LoginInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		918B71D7A0E4DF6CC5F11EA7 /* Pods_VIPER_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96872C62BADE0D3E5BCC6059 /* HomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		9DDA569A9377C4C12F3DC769 /* HomeViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B3D4F9E2A63F2E9F8085AADC /* LoginBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		B669DE5967798B095C7E6F46 /* PreviewRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewRouter.swift; sourceTree = "<group>"; };
+		BC17FB50D675B119A423B02A /* PreviewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewPresenter.swift; sourceTree = "<group>"; };
+		CA7BD26FCBF48386F95746EE /* PreviewInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewInteractor.swift; sourceTree = "<group>"; };
+		CBB1C059B296137D1C4A4637 /* HomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEEE337D8FC0118BC028CAEF /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D2746A11457D7C1F5B7BE011 /* SplashBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashBuilder.swift; sourceTree = "<group>"; };
+		E9D3913D1B6DFCD3BEA622E2 /* PreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		EBAE94C5261DB7BB00412A71 /* VIPER-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAE94C8261DB7BB00412A71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBAE94CA261DB7BB00412A71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBAE94CF261DB7BB00412A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBAE94D1261DB7BF00412A71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAE94D4261DB7BF00412A71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBAE94D6261DB7BF00412A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAE94DD261DB7E700412A71 /* ApplicationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationContext.swift; sourceTree = "<group>"; };
+		EBAE94EB261DBC1600412A71 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		EBAE94EC261DBC1600412A71 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		EBAE94F1261DC18300412A71 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EBAE94F5261DC21700412A71 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		EBAE94F9261DC2BF00412A71 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F3CC743F8C64DC119C8325A5 /* HomeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		F82607F525E8CAFF4750DEE7 /* PreviewViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PreviewViewController.xib; sourceTree = "<group>"; };
+		FC82B656F9AB8894744CBE8C /* SplashPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAE94C2261DB7BB00412A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FD6566E2820BC9CD6F16A4 /* Pods_VIPER_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E32AAF50C06F210112C9EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				50F537D98A28F1F82FA46539 /* View */,
+				50BB73D9B4DAD62D790F259B /* Presenter */,
+				A70D2C8C4FF4DBA8CC5575BD /* Interactor */,
+				E40ECFE5698DD1127E2AF2B3 /* Router */,
+				B3D4F9E2A63F2E9F8085AADC /* LoginBuilder.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0F963F5E736857392255690A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B669DE5967798B095C7E6F46 /* PreviewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		13B8D80A0A86E54073BC4E25 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				07E32AAF50C06F210112C9EF /* Core */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		15C06A3ADC8571A00D8DD080 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE94EB261DBC1600412A71 /* HomeTableViewCell.swift */,
+				EBAE94EC261DBC1600412A71 /* HomeTableViewCell.xib */,
+				CBB1C059B296137D1C4A4637 /* HomeViewController.swift */,
+				9DDA569A9377C4C12F3DC769 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A4E87BECBF135EB59263D05 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				15C06A3ADC8571A00D8DD080 /* View */,
+				5ECEC2E6FFAE8F3502D39C4B /* Presenter */,
+				24469AFEAE9FEC95EB1D88A2 /* Interactor */,
+				3F27CE098F4761CC80AE7EB9 /* Router */,
+				F3CC743F8C64DC119C8325A5 /* HomeBuilder.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		24469AFEAE9FEC95EB1D88A2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				51C3F73B2550829A63DF6CE6 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2A09AC236A06B2E25A90C387 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BC17FB50D675B119A423B02A /* PreviewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3252A63F54C266AE1E4C3F6B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3025B33EA58D28A8A95D41C4 /* SplashInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3F27CE098F4761CC80AE7EB9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				506581874EA54B67C16353F2 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		411150751BD79F5A42651260 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FC82B656F9AB8894744CBE8C /* SplashPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		47176E34333AA739313D27EA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2490F61EB160870C56C6B0A6 /* SplashRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		50BB73D9B4DAD62D790F259B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				36468FCA660395187336AC52 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		50F537D98A28F1F82FA46539 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE337D8FC0118BC028CAEF /* LoginViewController.swift */,
+				50C80E27A60BA06534FCE337 /* LoginViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5ECEC2E6FFAE8F3502D39C4B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				96872C62BADE0D3E5BCC6059 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		61C8FC3C8B84AD74D923EB10 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7CAFAD1DB51E710E2423D2B9 /* View */,
+				2A09AC236A06B2E25A90C387 /* Presenter */,
+				D834BCA3341CA46D22E4F0FE /* Interactor */,
+				0F963F5E736857392255690A /* Router */,
+				47DA808B8D21844C577389AA /* PreviewBuilder.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		761F998C092CD1B95549B3F4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				13B8D80A0A86E54073BC4E25 /* Login */,
+				9A7B388FE1E85C114F2201D3 /* Home */,
+				B50E88A4C79EF67D300B844B /* Preview */,
+				F3683D55CABE3D965B947C6B /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		79C3F649D9C67E74E433D5E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66B2011D5BE7A09E1A9EA6D4 /* Pods-VIPER-Demo.debug.xcconfig */,
+				2E0431B4BF942B25A4059ABD /* Pods-VIPER-Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CAFAD1DB51E710E2423D2B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3913D1B6DFCD3BEA622E2 /* PreviewViewController.swift */,
+				F82607F525E8CAFF4750DEE7 /* PreviewViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A7B388FE1E85C114F2201D3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1A4E87BECBF135EB59263D05 /* Core */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A17F5D955265B5F63D366EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63B7DA999734B9415E4DE997 /* SplashViewController.swift */,
+				70F09F6417010A711788A12B /* SplashViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A70D2C8C4FF4DBA8CC5575BD /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				71B9AA9532813A216C2330E0 /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B50E88A4C79EF67D300B844B /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				61C8FC3C8B84AD74D923EB10 /* Core */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		B6A3F692C3C6E894ECCA9A12 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A17F5D955265B5F63D366EE9 /* View */,
+				411150751BD79F5A42651260 /* Presenter */,
+				3252A63F54C266AE1E4C3F6B /* Interactor */,
+				47176E34333AA739313D27EA /* Router */,
+				D2746A11457D7C1F5B7BE011 /* SplashBuilder.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BADE8BA556E2B4391788519D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				918B71D7A0E4DF6CC5F11EA7 /* Pods_VIPER_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D834BCA3341CA46D22E4F0FE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CA7BD26FCBF48386F95746EE /* PreviewInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E40ECFE5698DD1127E2AF2B3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				30269C246DDD100C743EE56A /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EBAE94BC261DB7BB00412A71 = {
+			isa = PBXGroup;
+			children = (
+				EBAE94C7261DB7BB00412A71 /* VIPER-Demo */,
+				EBAE94C6261DB7BB00412A71 /* Products */,
+				79C3F649D9C67E74E433D5E9 /* Pods */,
+				BADE8BA556E2B4391788519D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAE94C6261DB7BB00412A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE94C5261DB7BB00412A71 /* VIPER-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAE94C7261DB7BB00412A71 /* VIPER-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6B914261DCC92007491F5 /* AppContext */,
+				EBF6B912261DCC8C007491F5 /* Services */,
+				EBAE94F4261DC20400412A71 /* Models */,
+				761F998C092CD1B95549B3F4 /* Modules */,
+				EBF6B90F261DCC85007491F5 /* Extensions */,
+				EBAE94CA261DB7BB00412A71 /* SceneDelegate.swift */,
+				EBAE94C8261DB7BB00412A71 /* AppDelegate.swift */,
+				EBAE94D1261DB7BF00412A71 /* Assets.xcassets */,
+				EBAE94CE261DB7BB00412A71 /* Main.storyboard */,
+				EBAE94D3261DB7BF00412A71 /* LaunchScreen.storyboard */,
+				EBAE94D6261DB7BF00412A71 /* Info.plist */,
+			);
+			path = "VIPER-Demo";
+			sourceTree = "<group>";
+		};
+		EBAE94F4261DC20400412A71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE94F5261DC21700412A71 /* Fruit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBF6B90F261DCC85007491F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE94F9261DC2BF00412A71 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EBF6B912261DCC8C007491F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE94F1261DC18300412A71 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EBF6B914261DCC92007491F5 /* AppContext */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE94DD261DB7E700412A71 /* ApplicationContext.swift */,
+			);
+			path = AppContext;
+			sourceTree = "<group>";
+		};
+		F3683D55CABE3D965B947C6B /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3F692C3C6E894ECCA9A12 /* Core */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAE94C4261DB7BB00412A71 /* VIPER-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAE94D9261DB7BF00412A71 /* Build configuration list for PBXNativeTarget "VIPER-Demo" */;
+			buildPhases = (
+				2E8E0F862654A0145D702725 /* [CP] Check Pods Manifest.lock */,
+				EBAE94C1261DB7BB00412A71 /* Sources */,
+				EBAE94C2261DB7BB00412A71 /* Frameworks */,
+				EBAE94C3261DB7BB00412A71 /* Resources */,
+				55178DBC9DCBA799C7CE6397 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIPER-Demo";
+			productName = "VIPER-Demo";
+			productReference = EBAE94C5261DB7BB00412A71 /* VIPER-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAE94BD261DB7BB00412A71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EBAE94C4261DB7BB00412A71 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EBAE94C0261DB7BB00412A71 /* Build configuration list for PBXProject "VIPER-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAE94BC261DB7BB00412A71;
+			productRefGroup = EBAE94C6261DB7BB00412A71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAE94C4261DB7BB00412A71 /* VIPER-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAE94C3261DB7BB00412A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAE94D5261DB7BF00412A71 /* LaunchScreen.storyboard in Resources */,
+				EBAE94D2261DB7BF00412A71 /* Assets.xcassets in Resources */,
+				EBAE94D0261DB7BB00412A71 /* Main.storyboard in Resources */,
+				441AEB8D9584D512CF36B0B9 /* LoginViewController.xib in Resources */,
+				EBAE94EE261DBC1600412A71 /* HomeTableViewCell.xib in Resources */,
+				B6DA807D43AF0C5B8FFE3F75 /* HomeViewController.xib in Resources */,
+				5C65E7AAD21962DBE8EEB3B1 /* PreviewViewController.xib in Resources */,
+				01E040147DE1D91488B95743 /* SplashViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8E0F862654A0145D702725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIPER-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55178DBC9DCBA799C7CE6397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER-Demo/Pods-VIPER-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER-Demo/Pods-VIPER-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIPER-Demo/Pods-VIPER-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAE94C1261DB7BB00412A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAE94DE261DB7E700412A71 /* ApplicationContext.swift in Sources */,
+				EBAE94C9261DB7BB00412A71 /* AppDelegate.swift in Sources */,
+				EBAE94CB261DB7BB00412A71 /* SceneDelegate.swift in Sources */,
+				EBAE94FA261DC2BF00412A71 /* String+Extensions.swift in Sources */,
+				26EF424E76B534F96969323F /* LoginViewController.swift in Sources */,
+				9E31FF3330B2E15C28C9D1E3 /* LoginPresenter.swift in Sources */,
+				EBAE94F6261DC21700412A71 /* Fruit.swift in Sources */,
+				EBAE94ED261DBC1600412A71 /* HomeTableViewCell.swift in Sources */,
+				EBAE94F2261DC18300412A71 /* DataService.swift in Sources */,
+				0C0F55EEF0ED80BB6543F2A6 /* LoginInteractor.swift in Sources */,
+				0BE2236A018AB7E58F7FF1FF /* LoginRouter.swift in Sources */,
+				B65498763E235F55498277B1 /* LoginBuilder.swift in Sources */,
+				1F3AC49B716AB53F3F0146BF /* HomeViewController.swift in Sources */,
+				8A7D69B698DB586365D1712A /* HomePresenter.swift in Sources */,
+				CC6CCAA933DE91B69939EF9C /* HomeInteractor.swift in Sources */,
+				76771C9455204BAA6EE4001A /* HomeRouter.swift in Sources */,
+				9A1DE3C741684EABFE657903 /* HomeBuilder.swift in Sources */,
+				351F2BD36B707D91980DFF4F /* PreviewViewController.swift in Sources */,
+				40A7181B156421F19F144108 /* PreviewPresenter.swift in Sources */,
+				4011B3181EF943F6CA2A3215 /* PreviewInteractor.swift in Sources */,
+				C73BBA2472C3706F8698A792 /* PreviewRouter.swift in Sources */,
+				F95E9106D93080C7EE5A72FD /* PreviewBuilder.swift in Sources */,
+				2E53B1E43F570E52364ADE0C /* SplashViewController.swift in Sources */,
+				81890EF62482B3428BE5586F /* SplashPresenter.swift in Sources */,
+				09499DBBA580E79F891829C3 /* SplashInteractor.swift in Sources */,
+				9377CFA639510EA5AE759DD0 /* SplashRouter.swift in Sources */,
+				EE5349C9FAC1F3A14910673E /* SplashBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBAE94CE261DB7BB00412A71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAE94CF261DB7BB00412A71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBAE94D3261DB7BF00412A71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAE94D4261DB7BF00412A71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBAE94D7261DB7BF00412A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBAE94D8261DB7BF00412A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAE94DA261DB7BF00412A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B2011D5BE7A09E1A9EA6D4 /* Pods-VIPER-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "VIPER-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.endava.VIPER-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAE94DB261DB7BF00412A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0431B4BF942B25A4059ABD /* Pods-VIPER-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "VIPER-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.endava.VIPER-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAE94C0261DB7BB00412A71 /* Build configuration list for PBXProject "VIPER-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAE94D7261DB7BF00412A71 /* Debug */,
+				EBAE94D8261DB7BF00412A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAE94D9261DB7BF00412A71 /* Build configuration list for PBXNativeTarget "VIPER-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAE94DA261DB7BF00412A71 /* Debug */,
+				EBAE94DB261DB7BF00412A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAE94BD261DB7BB00412A71 /* Project object */;
+}

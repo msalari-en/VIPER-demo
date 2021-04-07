@@ -1,0 +1,23 @@
+### Headers settings
+company: ICS Endava SRL
+
+### Xcode project settings
+project_name: VIPER-Demo
+xcodeproj_path: VIPER-Demo.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: VIPER-Demo
+
+# The file path for new modules
+project_file_path: VIPER-Demo/Modules
+
+# The Xcode group path to new modules
+project_group_path: VIPER-Demo/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: swift-viper, git: 'https://github.com/msalari-en/swift-viper.git'}
